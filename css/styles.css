@@ -413,7 +413,6 @@ a {
   letter-spacing: 0.02em;
   color: #fff;
   margin-bottom: 16px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-networks {
   display: flex;
@@ -427,6 +426,7 @@ a {
   align-items: center;
   display: flex;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .networks-two:hover,
 .networks-two:focus {
@@ -434,4 +434,8 @@ a {
 }
 .networks-svg-two {
   fill: #f4f4fd;
+}
+.footer-networks {
+  width: 40px;
+  height: 40px;
 }
