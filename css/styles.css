@@ -291,7 +291,10 @@ a {
   align-items: center;
   justify-content: center;
 }
-.networks-one:hover,
+.networks-one:hover {
+  background-color: #404bbf;
+  cursor: pointer;
+}
 .networks-one:focus {
   background-color: #404bbf;
   cursor: pointer;
